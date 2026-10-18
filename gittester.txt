@@ -1,4 +1,5 @@
 this file is for practising git commands
 
-1. Testing this file to learn git commands for pull and push. 
-2. I'm shiva adding few  more Lines . review the code and update the comments.
+1. Testing this file to learn git commands for pull and push.
+2. I'm testing master commit issues here. 
+3. I'm shiva adding few  more Lines . review the code and update the comments.
