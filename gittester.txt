@@ -9,3 +9,4 @@ this file is for practising git commands
 7. I'm testing master commit issues here. 
 8. I'm shiva adding few  more Lines . review the code and update the comments.
 9. I have learnt 50% of Git hub
+10.I'm trying to pull and push the code 
