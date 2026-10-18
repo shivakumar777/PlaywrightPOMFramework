@@ -1,0 +1,23 @@
+{
+  "name": "playwright-pom-framework",
+  "version": "1.0.0",
+  "description": "Playwright Test + Page Object Model (TypeScript) framework",
+  "private": true,
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:ui": "playwright test --ui",
+    "test:debug": "playwright test --debug",
+    "test:smoke": "playwright test --grep @smoke",
+    "test:chromium": "playwright test --project=chromium",
+    "codegen": "playwright codegen http://localhost/orangehrm-5.9/web/index.php/auth/login",
+    "typecheck": "tsc --noEmit",
+    "report": "playwright show-report"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.49.0",
+    "@types/node": "^22.5.0",
+    "dotenv": "^16.4.5",
+    "typescript": "^5.5.4"
+  }
+}
