@@ -1,1 +1,3 @@
 this file is for practising git commands
+
+1. Testing this file to learn git commands for pull and push. 
