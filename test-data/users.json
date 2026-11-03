@@ -1,5 +1,4 @@
 {
-  "valid": { "username": "Admin", "password": "admin123" },
   "invalidCredentials": [
     { "name": "wrong password", "username": "Admin", "password": "wrong123" },
     { "name": "wrong username", "username": "NoSuchUser", "password": "admin123" }

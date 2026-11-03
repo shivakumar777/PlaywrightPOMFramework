@@ -1,5 +1,6 @@
 import { test, expect } from '../../fixtures/baseFixture';
 import users from '../../test-data/users.json';
+import { requireEnv } from '../../utils/env';
 
 test.describe('Login', () => {
   test.beforeEach(async ({ loginPage }) => {
@@ -7,7 +8,7 @@ test.describe('Login', () => {
   });
 
   test('valid user can log in @smoke', async ({ loginPage, dashboardPage, page }) => {
-    await loginPage.login(users.valid.username, users.valid.password);
+    await loginPage.login(requireEnv('USER_NAME'), requireEnv('PASSWORD'));
     await expect(page).toHaveURL(/dashboard/);
     await expect(dashboardPage.heading).toBeVisible();
   });
